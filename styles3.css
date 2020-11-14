@@ -1,0 +1,88 @@
+body{
+    background-color: #f1f1f1;
+    margin: 0;
+}
+
+.admin_top {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background: rgb(244,67,54);
+}
+
+.p1{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    padding-left: 10%;
+    padding-top: 7px;
+    position: relative;
+    float: left;
+
+}
+
+.p2{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    padding-left: 50%;
+    padding-top: 7px;
+    position: relative;
+    float: left;
+
+
+}
+
+.p3{
+
+    padding-left: 40px;
+    float: left;
+    color: white;
+
+}
+
+
+
+
+.navigate{
+
+
+    clear: both;
+    font-size: 20px;
+
+}
+
+
+
+
+  .form{
+
+    height: 200px;
+    width: 100vh;
+    background-color:rgba(244,67,54,0.9);
+    color: honeydew;
+    font-weight: bold;
+    font-family: san-serif;
+    padding-top: 20px;
+    padding-left: 20px ;
+      margin: auto;
+      margin-top: 50px;
+      border-radius:20px;
+      margin-bottom: 10px;
+
+  }
+.btna{
+    border-radius: 21px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    background: #2b3236;
+    padding: 5px;
+    border: solid #202629 2px;
+    margin-left: 50%;
+    margin-top: -40px;
+}
+.btna:hover {
+    background: #8b9aa3;
+    text-decoration: none;
+}

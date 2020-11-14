@@ -1,0 +1,437 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.mainframe{
+  width: 1000px;
+ height: 800px;
+  margin:auto;
+  margin-top: 40px;
+  position: relative;
+  -webkit-box-shadow: 1px 1px 6px 1px #000000;
+box-shadow: 1px 1px 6px 1px #000000;
+background-color: #ffffff;
+}
+.leftframe{
+  position: absolute;
+  width: 600px;
+  height: 800px;
+  left: 0px;
+  top: 0px;
+   background-color: rgb(244,67,54);
+   background-image:url('images/train.jpg');
+}
+
+.rightframe{
+  position: relative;
+  width: 400px;
+  height: 800px;
+  left: 600px;
+  top: 0px;
+  background: #FFFFFF;
+}
+
+/* Loginform styles */
+#loginform{
+  position: relative;
+  width: 400px;
+  height: 419px;
+  background: #FFFFFF;
+}
+
+.Username_input{
+  position: absolute;
+  width: 279px;
+  height: 45px;
+  left: 57px;
+  top: 171px;
+  background: #EFEFEF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+.password_input{
+  position: absolute;
+  width: 287px;
+  height: 45px;
+  left: 57px;
+  top: 244px;
+  background: #F3F0F0;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+  .login_button {
+    background-color: rgb(244,67,54);
+    border-radius: 8px;
+    font-family: 'Montserrat'sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: absolute;
+  width: 128px;
+  height: 48px;
+  left: 122px;
+  top: 323px;
+  }
+  .login_button:hover {
+    background-color: #ec6565;
+  }
+#create_ac{
+position: absolute;
+width: 180px;
+height: 28px;
+left: 46px;
+top: 125px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #007EDA;
+}
+.signin1{
+  position: absolute;
+width: 104px;
+height: 32px;
+left: 27px;
+top: 75px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#signup{
+  position: absolute;
+  width: 95px;
+  height: 31px;
+  left: 301px;
+  top: 9px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #0779FF;
+}
+
+
+
+
+
+
+/* registration form */
+#registration{
+  position: relative;
+  width: 394px;
+  height: 590px;
+  background: #FFFFFF;
+  display: none;
+}
+#signin{
+  position: absolute;
+  width: 93px;
+  height: 31px;
+  left: 291px;
+  top: 8px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #0779FF;
+}
+
+.signup1{
+  position: absolute;
+width: 104px;
+height: 32px;
+left: 24px;
+top: 70px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+#login{
+  position: absolute;
+  width: 155px;
+  height: 15px;
+  left: 40px;
+  top: 100px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #0779FF;
+}
+.Rname_input{
+  position: absolute;
+  width: 280px;
+  height: 42px;
+  left: 51px;
+  top: 163px;
+
+  background: #EFEFEF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  }
+.email_input{
+  position: absolute;
+  width: 280px;
+  height: 37px;
+  left: 51px;
+  top: 216px;
+
+  background: #EFEFEF;
+  border: 1px solid #000000;
+  box-sizing: border-box
+    }
+
+.DOB{
+  position: absolute;
+  width: 280px;
+  height: 39px;
+  left: 51px;
+  top: 315px;
+
+  background: #EFEFEF;
+  border: 1px solid #000000;
+  box-sizing: border-box;  }
+
+.Rpassword_input{
+  position: absolute;
+  width: 280px;
+  height: 39px;
+  left: 51px;
+  top: 370px;
+
+  background: #EFEFEF;
+  border: 1px solid #000000;
+  box-sizing: border-box;  }
+
+  .re_button{
+    background-color: rgb(244,67,54);
+
+    border-radius: 8px;
+    font-family: 'Montserrat'sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: absolute;
+    width: 128px;
+    height: 48px;
+    left: 120px;
+    top: 450px;
+  }
+input{
+  border-radius: 10px;
+}
+  .re_button:hover {
+
+  background-color: #ec6565;
+}
+
+
+  .phone{
+    position: absolute;
+    position: absolute;
+    width: 280px;
+    height: 37px;
+    left: 51px;
+    top: 265px;
+    background: #EFEFEF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+
+
+  /* main.php */
+  .search {
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    width: 60%;
+    margin: 25px 20% 20px 20%;
+    opacity: 0.9;
+    background-color: #fbf7f0;
+  }
+
+  .dep {
+    font-size: 12px;
+    color: #373a40;
+    padding: 12px;
+    border: solid;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+  }
+
+  .arr {
+    font-size: 12px;
+    color: #373a40;
+    padding: 12px;
+    border: solid;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+  }
+
+  .Date {
+    font-size: 12px;
+    color: #373a40;
+    padding: 10px;
+    border: solid;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .opt {
+    font-size: 12px;
+    color: #373a40;
+    padding: 5px;
+    border: solid;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+
+  }
+
+  /* Button */
+  .btns {
+    border-radius: 21px;
+    -webkit-box-shadow: 0px 1px 3px #423b42;
+    -moz-box-shadow: 0px 1px 3px #423b42;
+    box-shadow: 0px 1px 3px #423b42;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    background: #2b3236;
+    padding: 5px;
+    border: solid #202629 2px;
+
+  }
+
+  .btns:hover {
+    background: #8b9aa3;
+    text-decoration: none;
+  }
+
+
+
+  /* Route */
+  .Route{
+    width: 60%;
+    height:12%;
+    padding: 20px;
+    margin: 0 20% 10px 20%;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #4C7881 0%, rgba(255, 255, 255, 0) 100%), rgba(184, 170, 170, 0.29);
+  }
+  .routeform{
+  position: relative;
+
+  }
+  .deptime{
+    position: absolute;
+    width: 88px;
+    height: 26px;
+    left: 1%;
+    top: 70%;
+    text-align: center;
+  }
+  .fax{
+    position: relative;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  color: #000000;
+  left: 30%;
+
+  }
+  .from{
+    position: absolute;
+    width: 88px;
+    height: 26px;
+    left: 1%;
+    text-align: center;
+  }
+  .to{
+    position: absolute;
+    width: 88px;
+    height: 26px;
+    left: 50%;
+    text-align: center;
+  }
+  .arrtime{
+    position: absolute;
+    width: 88px;
+    height: 26px;
+    left: 50%;
+    top: 70%;
+    text-align: center;
+  }
+  .price{
+    position: absolute;
+    width: 80px;
+    height: 26px;
+    top: 35%;
+    left: 70%;
+    text-align: center;
+  }
+  .pricetag{
+    position: absolute;
+    left: 73%;
+    color: #c62a88;
+  }
+  .selectRouteBtn{
+    position: absolute;
+    top: 15%;
+    left: 85%;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #1f628d 0px;
+    text-decoration: none;
+  }
+  .selectRouteBtn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+
+}
